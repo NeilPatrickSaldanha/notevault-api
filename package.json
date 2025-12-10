@@ -1,0 +1,32 @@
+{
+  "name": "notevault-api",
+  "version": "1.0.0",
+  "description": "Containerized Note Management Service with CI/CD Pipeline",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node app.js",
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilPatrickSaldanha/notevault-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilPatrickSaldanha/notevault-api/issues"
+  },
+  "homepage": "https://github.com/NeilPatrickSaldanha/notevault-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
